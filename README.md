@@ -1,1 +1,5 @@
 # stats-222
+
+This project investigates the application of principal component analysis (“PCA”) to study the US stock returns with Russell index dataset and its constituents from March 2003 to March 2018. The high-level motivation comes from the portfolio optimization problem - maximizing sharpe ratio to obtain the tangency portfolio. Sharpe ratio is a commonly used risk return measurement in finance; it describes how much excess return investors are receiving for the extra volatility they endure for holding a riskier asset. 
+
+Our goal is to create a stable and well behaved covariance matrix on stock returns in order to better construct the portfolio optimization problem. Our analysis is three-folded; firstly, we explored the cross-correlation of equity returns in a portfolio, including comparison between bear and bull markets; secondly, we conducted search of common economic factors for each principal component which drive the correlation of stock returns; thirdly, we created a simplified factor model by using only the top PCs. We also compared empirical correlation matrix versus the predicted correlation matrix with PCA regression.
